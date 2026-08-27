@@ -1,0 +1,12 @@
+name: uncertainty_sweep
+gravity: 1.62
+gravity_label: moon
+seed: 0
+friction: 0.4
+controller:
+  name: straight_insert
+  timeout_s: 6.0
+# Parameter grid is defined by scripts/run_sweep.py; this file is the default base.
+pose_noise:
+  translation_m: [0.0, 0.0, 0.0]
+  rotation_deg: [0.0, 0.0, 0.0]

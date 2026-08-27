@@ -1,0 +1,40 @@
+{
+  "physics_assets": "/workspace/third_party/project_superdex/superdex_physics/assets",
+  "assets_exist": true,
+  "rod_spring_earth": {
+    "gravity": 9.81,
+    "cube_z0": -0.10000000149011612,
+    "cube_z1": -1.277510166168213,
+    "delta_z": -1.1775101646780968,
+    "num_rod_nodes": 129,
+    "helix_path": "/workspace/third_party/project_superdex/superdex_physics/assets/rods/helix_with_visual.mochi.h5"
+  },
+  "rod_spring_moon": {
+    "gravity": 1.62,
+    "cube_z0": -0.10000000149011612,
+    "cube_z1": -1.3775829076766968,
+    "delta_z": -1.2775829061865807,
+    "num_rod_nodes": 129,
+    "helix_path": "/workspace/third_party/project_superdex/superdex_physics/assets/rods/helix_with_visual.mochi.h5"
+  },
+  "guides_rod_moon": {
+    "gravity": 1.62,
+    "n_nodes": 25,
+    "end_z0": 0.18000000715255737,
+    "end_z1": 0.18000000715255737,
+    "sag": 0.0,
+    "guides": [
+      "guide0",
+      "guide1"
+    ]
+  },
+  "spatial_tendon": {
+    "prefab": "samples/tendon_comparison_articulation.mochi_scene",
+    "n_articulated": 1,
+    "n_links": 9,
+    "tendon_index": 0,
+    "n_waypoints": 5,
+    "steps": 40
+  },
+  "errors": []
+}

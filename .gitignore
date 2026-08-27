@@ -1,0 +1,40 @@
+# SuperDex clone (not vendored)
+third_party/
+.deps/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Experiment runtime
+*.log
+.cache/
+
+# Large / generated binaries
+*.mp4
+*.gif
+*.h5
+*.mochi.h5
+*.glb
+
+# Keep small result tables and plots
+!results/**/*.csv
+!results/**/*.json
+!results/**/*.png
+!results/**/*.md
+!results/**/*.yaml
+!results/**/*.yml
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
